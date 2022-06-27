@@ -1,14 +1,21 @@
 .c-horiz {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .c-vert {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.sign-in-btn {
-  width: 50%;
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sign-in-out-btn {
+  width: 10%;
   margin: 0.5rem auto;
 }
